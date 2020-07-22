@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<head>
+<title>MPB's Blog.</title>
+  <link href="/normalize.css" rel="stylesheet">
+<style>
+header { 
+  text-align: center;
+  color: white;
+  font-size: 20;
+  font-family: monospace;
+  background: url("https://i.imgur.com/obQxmCV.jpg");
+} 
+img {
+  border: 15px solid white; 
+  border-radius: 1000px;
+  text-align: center; 
+  margin: 10px 0px 0px 0px
+}
+ul { 
+  padding: 12.5px; 
+  font-size: 25px;
+  background: rgba(0,0,0,0.5)
+} 
+a { 
+  padding: 10px 10px 40px 10px; 
+  color: white; 
+  display: inline;
+  max-width: 50px;
+}
+article { 
+  background: purple; 
+  color: white; 
+  font-family: monospace;
+  margin: 0 auto; 
+  padding: 30px 
+
+}
+@media (maxwidth: 500px) { 
+  h1 {
+    font-size: 36px;
+    padding: 5px; 
+    margin: 0 auto;
+  }
+  li {
+    padding: 5px; 
+    display: block: 
+  }
+}
+  </style>
+</head> 
+
+<body> 
+<header> 
+<h1> michael's blog. </h1> 
+<img src="https://i.imgur.com/Ue5ybCB.jpg">
+<ul>
+<a href="https://twitter.com/codempb">Twitter</a>
+<a href="https://github.com/mpbuk">Github</a>
+<a href="https://www.linkedin.com/in/michaelometria/">Linkedin</a>
+</ul> 
+</header>
+<article>
+<h2>
+What is HTML?
+</h2>
+<p>HTML stands for Hypertext Markup Language. It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications. When working with HTML, we use simple code structures (tags and attributes) to mark up a website page. For example, we can create a paragraph by placing the enclosed text within a starting < p > and closing < /p > tag.</p>
+<button>Like this..</button>
+</arcticle> 
+<article>
+<h2>What is CSS?</h2>
+<p>CSS stands for Cascading Style Sheets with an emphasis placed on Style. While HTML is used to structure a web documents, defining things like headlines and paragraphs, and allowing you to embed images, video, and other media, CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS. Think of HTML as the foundation every house has one, and CSS as the aesthetic choices, there’s a big difference between a Victorian mansion and a mid-century modern home.</p>
+<button>Like this..</button>
+</article>
+<article> 
+<h2>What is Javascript?</h2>
+<p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.</p>
+<button>Like this..</button>
+</article>
+<script>alert("Javascript Works")
+$("button").on("click", function(){alert("you liked this..!") })
+</script>
+</body> 
+                
